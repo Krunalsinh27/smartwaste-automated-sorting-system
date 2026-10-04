@@ -1,0 +1,26 @@
+{
+  "machine": {
+    "name": "SmartWaste Industrial Sorting Machine #1",
+    "maxConveyorSpeed": 2.5,
+    "maxGates": 5,
+    "autoStopTimeoutSec": 300
+  },
+  "camera": {
+    "deviceId": 0,
+    "frameWidth": 1920,
+    "frameHeight": 1080,
+    "fps": 30,
+    "minConfidenceThreshold": 0.65
+  },
+  "sorting": {
+    "plasticGate": 1,
+    "metalGate": 2,
+    "paperGate": 3,
+    "glassGate": 4,
+    "defaultOtherGate": 5,
+    "gateActuationDurationMs": 150.0
+  },
+  "eventStoragePath": "data/events.jsonl",
+  "databasePath": "data/smartwaste.db"
+}
+
